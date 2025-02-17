@@ -3,13 +3,13 @@ name = "server"
 path = "Source/main.rs"
 
 [dependencies]
-lsp-server = "0.7.6"
-lsp-types = "0.95.1"
-serde = "1.0.189"
-serde_json = "1.0.107"
+lsp-server = "0.7.8"
+lsp-types = "0.97.0"
+serde = "1.0.217"
+serde_json = "1.0.138"
 walkdir = "2"
 
 [package]
-edition = "2021"
-name = "server"
+edition = "2024"
+name = "wasm_language_server"
 version = "0.1.0"

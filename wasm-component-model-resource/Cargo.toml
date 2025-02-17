@@ -1,11 +1,11 @@
 [dependencies]
-wit-bindgen = "0.24.0"
+wit-bindgen = "0.39.0"
 
 [lib]
 crate-type = ["cdylib"]
 path = "Source/lib.rs"
 
 [package]
-edition = "2021"
-name = "calculator"
+edition = "2024"
+name = "wasm_component_model_resource"
 version = "0.1.0"
