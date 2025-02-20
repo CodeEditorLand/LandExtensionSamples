@@ -6,6 +6,7 @@
 	"scripts": {
 		"compile": "tsc -p ./"
 	},
+	"l10n": "./l10n",
 	"contributes": {
 		"commands": [
 			{
@@ -29,6 +30,5 @@
 		"@types/glob": "8.1.0",
 		"@types/node": "22",
 		"glob": "11.0.1"
-	},
-	"l10n": "./l10n"
+	}
 }
