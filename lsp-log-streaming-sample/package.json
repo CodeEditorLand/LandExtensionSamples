@@ -1,7 +1,14 @@
 {
-	"activationEvents": [
-		"onLanguage:plaintext"
-	],
+	"name": "lsp-log-streaming-sample",
+	"description": "A language server example demonstrating log streaming",
+	"main": "./client/out/extension",
+	"scripts": {
+		"compile": "npm run compile:client && npm run compile:server",
+		"compile:client": "tsc -p ./client/tsconfig.json",
+		"compile:server": "tsc -p ./server/tsconfig.json",
+		"watch:client": "tsc -w -p ./client/tsconfig.json",
+		"watch:server": "tsc -w -p ./server/tsconfig.json"
+	},
 	"contributes": {
 		"commands": [
 			{
@@ -54,19 +61,12 @@
 			"type": "object"
 		}
 	},
+	"activationEvents": [
+		"onLanguage:plaintext"
+	],
 	"dependencies": {},
-	"description": "A language server example demonstrating log streaming",
 	"devDependencies": {
 		"@stylistic/eslint-plugin": "3.1.0",
 		"@types/node": "22"
-	},
-	"main": "./client/out/extension",
-	"name": "lsp-log-streaming-sample",
-	"scripts": {
-		"compile": "npm run compile:client && npm run compile:server",
-		"compile:client": "tsc -p ./client/tsconfig.json",
-		"compile:server": "tsc -p ./server/tsconfig.json",
-		"watch:client": "tsc -w -p ./client/tsconfig.json",
-		"watch:server": "tsc -w -p ./server/tsconfig.json"
 	}
 }
