@@ -1,10 +1,10 @@
 {
-	"name": "lsp-sample-server",
-	"description": "Example implementation of a language server in node.",
-	"scripts": {},
 	"dependencies": {
 		"@codeeditorland/languageserver": "0.0.1",
 		"@codeeditorland/languageserver-textdocument": "0.0.1"
 	},
-	"devDependencies": {}
+	"description": "Example implementation of a language server in node.",
+	"devDependencies": {},
+	"name": "lsp-sample-server",
+	"scripts": {}
 }
