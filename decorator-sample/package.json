@@ -23,7 +23,7 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@stylistic/eslint-plugin": "3.1.0",
+		"@stylistic/eslint-plugin": "4.2.0",
 		"@types/node": "22"
 	}
 }

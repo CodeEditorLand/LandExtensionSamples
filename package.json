@@ -10,8 +10,8 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@types/node": "22.13.4",
+		"@types/node": "22.13.9",
 		"glob": "11.0.1",
-		"tsx": "4.19.2"
+		"tsx": "4.19.3"
 	}
 }

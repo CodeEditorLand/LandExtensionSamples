@@ -4,7 +4,7 @@
 	"scripts": {},
 	"dependencies": {
 		"@codeeditorland/languageclient": "0.0.1",
-		"ws": "8.18.0"
+		"ws": "8.18.1"
 	},
 	"devDependencies": {
 		"@codeeditorland/test-electron": "0.0.1",
