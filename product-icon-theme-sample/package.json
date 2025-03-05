@@ -1,8 +1,9 @@
 {
 	"name": "product-icon-theme-sample",
-	"scripts": {
-		"showFont": "open ./theme/vscode-10.html",
-		"updateFont": "node ./build/updateFont.js"
+	"version": "0.1.0",
+	"publisher": "vscode-samples",
+	"engines": {
+		"vscode": "*"
 	},
 	"contributes": {
 		"productIconThemes": [
@@ -13,10 +14,16 @@
 			}
 		]
 	},
-	"dependencies": {},
+	"scripts": {
+		"updateFont": "node ./build/updateFont.js",
+		"showFont": "open ./theme/vscode-10.html"
+	},
 	"devDependencies": {
-		"@stylistic/eslint-plugin": "4.2.0",
-		"open": "10.1.0",
-		"webfont": "11.2.26"
+		"@eslint/js": "^9.13.0",
+		"@stylistic/eslint-plugin": "^2.9.0",
+		"eslint": "^9.13.0",
+		"open": "^7.0.3",
+		"typescript-eslint": "^8.26.0",
+		"webfont": "^11.2.4"
 	}
 }
