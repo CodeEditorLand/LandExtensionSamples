@@ -35,18 +35,18 @@
     "lint": "eslint"
   },
   "devDependencies": {
-    "@eslint/js": "^9.13.0",
-    "@stylistic/eslint-plugin": "^2.9.0",
-    "@types/vscode-notebook-renderer": "^1.57.8",
-    "@types/webpack-env": "^1.17.0",
-    "css-loader": "^4.2.0",
-    "eslint": "^9.13.0",
-    "style-loader": "^1.2.1",
-    "ts-loader": "^9.2.2",
-    "typescript": "^5.8.2",
-    "typescript-eslint": "^8.26.0",
-    "vscode-notebook-error-overlay": "^1.0.1",
-    "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.0"
+    "@eslint/js": "^9.28.0",
+    "@stylistic/eslint-plugin": "^4.4.1",
+    "@types/vscode-notebook-renderer": "^1.72.3",
+    "@types/webpack-env": "^1.18.8",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.28.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.1",
+    "vscode-notebook-error-overlay": "^1.1.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   }
 }
