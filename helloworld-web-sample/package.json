@@ -42,11 +42,11 @@
 		"@vscode/test-web": "^0.0.70",
 		"assert": "^2.1.0",
 		"eslint": "^9.28.0",
-		"mocha": "^11.5.0",
+		"mocha": "^11.6.0",
 		"process": "^0.11.10",
 		"ts-loader": "^9.5.2",
 		"typescript": "^5.8.3",
-		"typescript-eslint": "^8.33.1",
+		"typescript-eslint": "^8.34.0",
 		"webpack": "^5.99.9",
 		"webpack-cli": "^6.0.1"
 	}

@@ -41,7 +41,7 @@
 		"postinstall": "npm run download-api"
 	},
 	"devDependencies": {
-		"@types/node": "^22",
+		"@types/node": "^24",
 		"@vscode/dts": "^0.4.1",
 		"typescript": "^5.8.3"
 	}

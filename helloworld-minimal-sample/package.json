@@ -23,6 +23,6 @@
 		"@stylistic/eslint-plugin": "^4.4.1",
 		"@types/vscode": "^1.100.0",
 		"eslint": "^9.28.0",
-		"typescript-eslint": "^8.33.1"
+		"typescript-eslint": "^8.34.0"
 	}
 }

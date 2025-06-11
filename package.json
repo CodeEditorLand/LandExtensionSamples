@@ -14,7 +14,7 @@
 		"validate": "tsx .scripts/validate.ts"
 	},
 	"devDependencies": {
-		"@types/node": "^22.15.30",
+		"@types/node": "^24.0.0",
 		"glob": "^11.0.2",
 		"tsx": "^4.19.4",
 		"typescript": "^5.8.3"

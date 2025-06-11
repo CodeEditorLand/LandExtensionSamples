@@ -23,7 +23,7 @@
 		"@stylistic/eslint-plugin": "^4.4.1",
 		"eslint": "^9.28.0",
 		"open": "^10.1.2",
-		"typescript-eslint": "^8.33.1",
+		"typescript-eslint": "^8.34.0",
 		"webfont": "^11.2.26"
 	}
 }

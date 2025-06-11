@@ -38,12 +38,12 @@
     "@stylistic/eslint-plugin": "^4.4.1",
     "@types/glob": "^8.1.0",
     "@types/isomorphic-fetch": "^0.0.39",
-    "@types/node": "^22",
+    "@types/node": "^24",
     "@types/vscode": "^1.100.0",
     "eslint": "^9.28.0",
     "glob": "^11.0.2",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.33.1"
+    "typescript-eslint": "^8.34.0"
   },
   "dependencies": {
     "isomorphic-fetch": "^3.0.0"

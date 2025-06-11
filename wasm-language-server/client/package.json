@@ -26,7 +26,7 @@
 	},
 	"devDependencies": {
 		"@types/vscode": "1.100.0",
-		"@types/node": "^22"
+		"@types/node": "^24"
 	},
 	"scripts": {
 		"compile": "tsc -b",

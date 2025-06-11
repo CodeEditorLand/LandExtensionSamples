@@ -227,12 +227,12 @@
 		"@stylistic/eslint-plugin": "^4.4.1",
 		"@types/ftp": "^0.3.36",
 		"@types/mkdirp": "^2.0.0",
-		"@types/node": "^22",
+		"@types/node": "^24",
 		"@types/rimraf": "^4.0.5",
 		"@types/vscode": "^1.100.0",
 		"eslint": "^9.28.0",
 		"typescript": "^5.8.3",
-		"typescript-eslint": "^8.33.1"
+		"typescript-eslint": "^8.34.0"
 	},
 	"dependencies": {
 		"ftp": "^0.3.10",
